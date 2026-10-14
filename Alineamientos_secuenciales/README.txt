@@ -10,6 +10,8 @@ Translated Nucleotide query -> Protein database (blastx): Traduce una secuencia 
 
 Protein query -> Translated Nucleotide database (tblastn): Compara una secuencia de proteínas contra una base de datos de nucleótidos que es traducida automáticamente. 
 
+Translated nucleotid query -> Tranlated nucleotid database (tblastx): Compara secuencias de nucleótidos traducidos con una base de datos de nucleótidos traducidos.
+
 Casos de uso: 
 Usarías blastn o blastp cuando la secuencia consultada y la base de datos compartan la misma naturaleza (nucleótidos con nucleótidos, proteínas con proteínas).
 Usarías blastx o tblastn cuando se necesita traducción de por medio.
