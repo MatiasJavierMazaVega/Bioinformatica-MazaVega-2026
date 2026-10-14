@@ -1,3 +1,7 @@
+# Análisis de Resultados: Búsqueda de Similitud Secuencial (BLAST)
+
+---
+
 ## 1. Para Pensar 🤔: Programas derivados del BLAST
 **Consigna:** Ingresá al servidor del NCBI y mirá los distintos programas derivados del BLAST que se ofrecen. ¿Para qué sirve cada uno? ¿En qué casos usarías cada uno?
 
