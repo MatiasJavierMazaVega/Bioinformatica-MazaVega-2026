@@ -46,10 +46,12 @@ Observaciones en los gráficos:
 Conclusión: Miestras más larga es la cadena mayor es el score posible ya que representan secuencias más específicas,
 a diferencia de cadenas más pequñas que tienen mas probabilidades de coincidir al azar (mayor e-value).
 
+
 DESAFIO IX: Utilizando BLAST utilice búsquedas de similitud secuencial para identificar a la siguiente proteína:
 MIDKSAFVHPTAIVEEGASIGANAHIGPFCIVGPHVEIGEGTVLKSHVVVNGHTKIGRDNEIYQFASIGEVNQDLKYAGEPTRVEIGDRNRIRESVTIHRGTVQGGGLTKVGSDNLLMINAHIAHDCTVGNRCILANNATLAGHVSVDDFAIIGGMTAVHQFCIIGAHVMVGGCSGVAQDVPPYVIAQGNHATPFGVNIEGLKRRGFSREAITAIRNAYKLIYRSGKTLDEVKPEIAELAETYPEVKAFTDFFARSTRGLIR
 
 La proteina es: acyl-ACP--UDP-N-acetylglucosamine O-acyltransferase [Klebsiella spallanzanii] (también conocida frecuentemente como LpxA)
+
 
 PARA PENSAR 🤔: ¿Cuál es la función de la proteína? ¿A qué grupo taxonómico pertenece? 
 A un nivel de significancia estadística adecuado ¿cuántas secuencias similares se encuentran?
@@ -59,10 +61,11 @@ en la membrana externa de las bacterias gramnegativas.
 -Grupo taxonómico: Pseudomonadota 
 -A un nivel de significancia estadística adecuado, encontramos cientos de secuencias parientes repartidas en diferentes tipos y cepas de bacterias gramnegativas.
 
+
 DESAFIO X: Realizá una nueva corrida del BLASTp, utilizando la misma secuencia , pero ahora contra la base de datos PDB. 
 ¿Se obtienen los mismos resultados? ¿Qué tipo de resultados(hits) se recuperan? ¿Cuándo nos podría ser útil este modo de corrida?
 
 La base de datos PDB contiene modelos de estructuras tridimensionales de proteinas determinadas de forma experimental,
-los resultados que se obtienen al hacer la búsqueda son muchos menos y corresponden a estructuras o modelos experimentales de la misma protína.
+los resultados que se obtienen al hacer la búsqueda son muchos menos y corresponden a estructuras o modelos experimentales de la misma protína. 
 Nos es útil cuando necesitamos información estructural tridimensional de la proteína. 
 Por ejemplo, si queremos realizar el modelado de la estructura 3D de nuestra proteína usando una plantilla con estructura ya resuelta.
